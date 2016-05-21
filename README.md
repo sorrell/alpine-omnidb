@@ -17,8 +17,8 @@ This is maybe the thinnest possible build of OmniDB as we're using Alpine Linux 
 ╠════════════╬════════════╬══════╬═══════════════╬═════════════════════════════╬══════════╬══════════╣
 ║ Access     ║ File       ║ path ║               ║                             ║          ║          ║
 ║ Firebird   ║ IP Address ║ Port ║ File          ║ path                        ║ User     ║ Password ║
-║ MySQL      ║ IP Address ║ Port ║ Database name ║ User                        ║ Password ║          ║
-║ Oracle     ║ IP Address ║ Port ║ Database name ║ User                        ║ Password ║          ║
+║ MySQL      ║ IP Address ║ Port ║ Database name ║                             ║ User     ║ Password ║
+║ Oracle     ║ IP Address ║ Port ║ Database name ║                             ║ User     ║ Password ║
 ║ PostgreSQL ║ IP Address ║ Port ║ Database name ║ Schema                      ║ User     ║ Password ║
 ║ SQLite     ║ File       ║ path ║               ║                             ║          ║          ║
 ║ SQL Server ║ IP Address ║ Port ║ Database name ║ Schema or empty for default ║ User     ║ Password ║
