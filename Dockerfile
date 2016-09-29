@@ -4,7 +4,7 @@ RUN apk add --no-cache \
   curl \
   zip
 
-RUN curl -o /tmp/OmniDB.zip http://www.omnidb.com.br/OmniDB-1.5.zip
+RUN curl -o /tmp/OmniDB.zip https://github.com/OmniDB/OmniDB/releases/download/v1.5/OmniDB-1.5.zip
 RUN unzip /tmp/OmniDB.zip -d /opt/
 RUN rm -f /tmp/OmniDB.zip
 
