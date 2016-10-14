@@ -15,12 +15,13 @@ This is maybe the thinnest possible build of OmniDB as we're using Alpine Linux 
 ╔════════════╦════════════╦══════╦═══════════════╦═════════════════════════════╦══════════╦══════════╗
 ║    SGBD    ║   Server   ║ Port ║    Service    ║           Schema            ║   User   ║ Password ║
 ╠════════════╬════════════╬══════╬═══════════════╬═════════════════════════════╬══════════╬══════════╣
-║ Access     ║ File       ║ path ║               ║                             ║          ║          ║
-║ Firebird   ║ IP Address ║ Port ║ File          ║ path                        ║ User     ║ Password ║
+║ Access     ║ File       ║      ║               ║                             ║          ║          ║
+║ Firebird   ║ IP Address ║ Port ║ File          ║ Path                        ║ User     ║ Password ║
+║ MariaDB    ║ IP Address ║ Port ║ Database name ║                             ║ User     ║ Password ║
 ║ MySQL      ║ IP Address ║ Port ║ Database name ║                             ║ User     ║ Password ║
 ║ Oracle     ║ IP Address ║ Port ║ Database name ║                             ║ User     ║ Password ║
-║ PostgreSQL ║ IP Address ║ Port ║ Database name ║ Schema                      ║ User     ║ Password ║
-║ SQLite     ║ File       ║ path ║               ║                             ║          ║          ║
+║ PostgreSQL ║ IP Address ║ Port ║ Database name ║ Schema or empty for default ║ User     ║ Password ║
+║ SQLite     ║ File       ║      ║               ║                             ║          ║          ║
 ║ SQL Server ║ IP Address ║ Port ║ Database name ║ Schema or empty for default ║ User     ║ Password ║
 ╚════════════╩════════════╩══════╩═══════════════╩═════════════════════════════╩══════════╩══════════╝
 ```
